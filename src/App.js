@@ -1,12 +1,13 @@
 import './App.css';
-import Pokedex from './Pokedex';
+import Pokegame from './Pokegame';
+
 
 /** Render App div and Pokedex */
 
 function App() {
   return (
     <div className="App">
-      <Pokedex />
+      <Pokegame />
     </div>
   );
 }
